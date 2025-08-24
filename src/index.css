@@ -1,0 +1,46 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.card{
+  width: 500px;
+  height: 300px;
+  border: 2px solid #333;
+  border-radius: 15px;
+  background: linear-gradient(to right, blue, blueviolet);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card h1{
+  font-size: 3rem;
+  color: whitesmoke;
+  margin: 0 0 10px 0;
+}
+
+.card h2{
+  font-size: 1.rem;
+  color: whitesmoke;
+}
+
